@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main__card {
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 3rem;
+  box-shadow: rgb(0 0 0) 0px 0px 20px 20px, rgb(255 255 255) 0px 2px 20px 1px;
+}
+
+.btn button a {
+  text-decoration: none;
+}
+.alt__img {
+  float: left;
+  width: 285px;
+  height: 391px;
+  object-fit: cover;
+}

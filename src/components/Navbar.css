@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+.nav__btn {
+  background-color: rgb(235, 206, 45);
+  font-family: "Anton", sans-serif;
+  width: 145px;
+  color: #000;
+  font-size: 25px;
+  text-transform: uppercase;
+  margin-left: 25px;
+  border-radius: 8px;
+}
+
+.main__logo {
+  margin-left: 10px;
+  height: 2.9rem;
+}
+
+.nav__items {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-nav {
+  width: 80vw;
+}
+
+.nav-item {
+  width: 100%;
+}
+.d-flex {
+  width: 100%;
+  margin-left: 30px;
+}
+
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 1;
+  margin: 20px;
+}

@@ -1,0 +1,31 @@
+.info__card {
+  width: 60vw;
+  margin: 10vh 20vw;
+  box-shadow: rgb(0 0 0) 0px 0px 20px 20px, rgb(255 255 255) 0px 2px 20px 1px;
+}
+.director {
+  display: flex;
+  align-items: center;
+}
+
+.heading {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.detail {
+  font-size: 1rem;
+}
+
+.info__mainBody__img {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  opacity: 0.1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

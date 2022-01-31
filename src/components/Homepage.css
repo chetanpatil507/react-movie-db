@@ -1,0 +1,24 @@
+.card__container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.search__h2 {
+  color: white;
+}
+
+.homepage__bgimg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  opacity: 0.1;
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
