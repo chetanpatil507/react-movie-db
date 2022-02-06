@@ -14,7 +14,7 @@ const Homepage = () => {
 
   const fetchData = async (val) => {
     const { data } = await axios.get(
-      `http://www.omdbapi.com/?s=${val}&apikey=${API_KEY}`
+      `https://www.omdbapi.com/?s=${val}&apikey=${API_KEY}`
     );
     setPost(data?.Search);
   };  

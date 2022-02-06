@@ -10,6 +10,7 @@ const Cards = ({ title, year, poster, type, imdbID }) => {
         <img
           src={`${poster === "N/A" ? "alt__poster.jpg" : poster}`}
           className="card-img-top alt__img"
+          alt={`${title}`}
         />
         <div className="card-body">
           <h5 className="card-title">{title}</h5>

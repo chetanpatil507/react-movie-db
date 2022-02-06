@@ -2,7 +2,7 @@
   "name": "react-movie-app-2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://chetanpatil507.github.io/react-movie-db",
+  "homepage": "https://chetanpatil507.github.io/react-movie-db",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
